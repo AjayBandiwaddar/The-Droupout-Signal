@@ -291,7 +291,8 @@ The-Dropout-Signal/
 │   └── 06_Dashboard_Prep.ipynb        # Aggregation tables for dashboard
 │
 ├── Queries/
-│   └── dashboard_queries.sql          # All SQL queries powering the dashboard
+│   ├── Alert Monitor - High Risk Students.dbquery.ipynb    # Email alert trigger when risk_score > 0.75
+│   └── Dynamic Dashboard Datasets - Industry Grade.ipynb  # SQL datasets powering the AI/BI dashboard
 │
 ├── .gitignore
 └── README.md
