@@ -1,0 +1,23 @@
+# Data files — never commit student data
+*.csv
+*.xlsx
+*.json
+data/raw/
+data/processed/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# Databricks
+.databricks/
+*.dbc
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# MLflow artifacts
+mlruns/
